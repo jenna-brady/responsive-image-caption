@@ -46,3 +46,19 @@ p{
  font-family: serif;
  margin: 0em;
 }
+
+@media only screen and (min-width: 38em){
+
+figure{
+  position: relative;;
+}
+figcaption{
+  color: #fff;
+  float: right;
+  bottom: 1em;
+  right: 1em;
+  border-radius: 1em;
+  position: absolute;
+  background-color: rgba(0, 0, 0, .3);
+  width: 20rem;
+}
